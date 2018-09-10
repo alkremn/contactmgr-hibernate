@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.teamtreehouse'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.hibernate:hibernate-core:5.3.6.Final'
+    compile 'com.h2database:h2:1.4.197'
+    compile 'javax.transaction:jta:1.1'
+
+}
